@@ -27,8 +27,3 @@ class AuthHandler(BaseHandler):
         finally:
             session.commit()
 
-
-class ResidentConnection(WebSocketHandler):
-    def open(self):
-        print("connection opened")
-
