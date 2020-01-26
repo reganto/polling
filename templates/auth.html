@@ -6,7 +6,7 @@
 
 {% block body %}
 <div>
-    <form method="POST" id="reg">
+    <form method="POST" id="reg" onsubmit="return false;">
         <label for="Username:"></label><br />
         <input type="text" name="username" id="id" 
             required="required" onblur="JavaScript:manage('/dev/');" />

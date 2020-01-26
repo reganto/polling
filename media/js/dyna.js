@@ -1,11 +1,3 @@
-var connection = new WebSocket('ws://'+location.host+'/s/');
-
-connection.onopen = function() {
-    console.log("connection opened");
-}
-
-
-
 function manage(url) {
     var xhrObject = new XMLHttpRequest();
     xhrObject.open('POST', url, true);
